@@ -14,7 +14,6 @@
 		B6FD452C18DC8ECA006E9458 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FD452B18DC8ECA006E9458 /* main.m */; };
 		B6FD453018DC8ECA006E9458 /* PYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FD452F18DC8ECA006E9458 /* PYAppDelegate.m */; };
 		B6FD453318DC8ECA006E9458 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6FD453118DC8ECA006E9458 /* Main.storyboard */; };
-		B6FD453618DC8ECA006E9458 /* PYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FD453518DC8ECA006E9458 /* PYViewController.m */; };
 		B6FD453818DC8ECA006E9458 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6FD453718DC8ECA006E9458 /* Images.xcassets */; };
 		B6FD453F18DC8ECA006E9458 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6FD453E18DC8ECA006E9458 /* XCTest.framework */; };
 		B6FD454018DC8ECA006E9458 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6FD451F18DC8ECA006E9458 /* Foundation.framework */; };
@@ -45,8 +44,6 @@
 		B6FD452E18DC8ECA006E9458 /* PYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYAppDelegate.h; sourceTree = "<group>"; };
 		B6FD452F18DC8ECA006E9458 /* PYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYAppDelegate.m; sourceTree = "<group>"; };
 		B6FD453218DC8ECA006E9458 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B6FD453418DC8ECA006E9458 /* PYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYViewController.h; sourceTree = "<group>"; };
-		B6FD453518DC8ECA006E9458 /* PYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYViewController.m; sourceTree = "<group>"; };
 		B6FD453718DC8ECA006E9458 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B6FD453D18DC8ECA006E9458 /* UITVC Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITVC Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6FD453E18DC8ECA006E9458 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -115,8 +112,6 @@
 				B6FD452E18DC8ECA006E9458 /* PYAppDelegate.h */,
 				B6FD452F18DC8ECA006E9458 /* PYAppDelegate.m */,
 				B6FD453118DC8ECA006E9458 /* Main.storyboard */,
-				B6FD453418DC8ECA006E9458 /* PYViewController.h */,
-				B6FD453518DC8ECA006E9458 /* PYViewController.m */,
 				B6FD453718DC8ECA006E9458 /* Images.xcassets */,
 				B6FD452618DC8ECA006E9458 /* Supporting Files */,
 			);
@@ -250,7 +245,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6FD453618DC8ECA006E9458 /* PYViewController.m in Sources */,
 				B6FD452C18DC8ECA006E9458 /* main.m in Sources */,
 				B6FD453018DC8ECA006E9458 /* PYAppDelegate.m in Sources */,
 			);
