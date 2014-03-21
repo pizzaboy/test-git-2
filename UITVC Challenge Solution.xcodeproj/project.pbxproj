@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6FD452018DC8ECA006E9458 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6FD451F18DC8ECA006E9458 /* Foundation.framework */; };
+		B6FD452218DC8ECA006E9458 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6FD452118DC8ECA006E9458 /* CoreGraphics.framework */; };
+		B6FD452418DC8ECA006E9458 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6FD452318DC8ECA006E9458 /* UIKit.framework */; };
+		B6FD452A18DC8ECA006E9458 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6FD452818DC8ECA006E9458 /* InfoPlist.strings */; };
+		B6FD452C18DC8ECA006E9458 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FD452B18DC8ECA006E9458 /* main.m */; };
+		B6FD453018DC8ECA006E9458 /* PYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FD452F18DC8ECA006E9458 /* PYAppDelegate.m */; };
+		B6FD453318DC8ECA006E9458 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6FD453118DC8ECA006E9458 /* Main.storyboard */; };
+		B6FD453618DC8ECA006E9458 /* PYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FD453518DC8ECA006E9458 /* PYViewController.m */; };
+		B6FD453818DC8ECA006E9458 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6FD453718DC8ECA006E9458 /* Images.xcassets */; };
+		B6FD453F18DC8ECA006E9458 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6FD453E18DC8ECA006E9458 /* XCTest.framework */; };
+		B6FD454018DC8ECA006E9458 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6FD451F18DC8ECA006E9458 /* Foundation.framework */; };
+		B6FD454118DC8ECA006E9458 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6FD452318DC8ECA006E9458 /* UIKit.framework */; };
+		B6FD454918DC8ECA006E9458 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6FD454718DC8ECA006E9458 /* InfoPlist.strings */; };
+		B6FD454B18DC8ECA006E9458 /* UITVC_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FD454A18DC8ECA006E9458 /* UITVC_Challenge_SolutionTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6FD454218DC8ECA006E9458 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6FD451418DC8ECA006E9458 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6FD451B18DC8ECA006E9458;
+			remoteInfo = "UITVC Challenge Solution";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B6FD451C18DC8ECA006E9458 /* UITVC Challenge Solution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UITVC Challenge Solution.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6FD451F18DC8ECA006E9458 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B6FD452118DC8ECA006E9458 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B6FD452318DC8ECA006E9458 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B6FD452718DC8ECA006E9458 /* UITVC Challenge Solution-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITVC Challenge Solution-Info.plist"; sourceTree = "<group>"; };
+		B6FD452918DC8ECA006E9458 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B6FD452B18DC8ECA006E9458 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6FD452D18DC8ECA006E9458 /* UITVC Challenge Solution-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITVC Challenge Solution-Prefix.pch"; sourceTree = "<group>"; };
+		B6FD452E18DC8ECA006E9458 /* PYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYAppDelegate.h; sourceTree = "<group>"; };
+		B6FD452F18DC8ECA006E9458 /* PYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYAppDelegate.m; sourceTree = "<group>"; };
+		B6FD453218DC8ECA006E9458 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6FD453418DC8ECA006E9458 /* PYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYViewController.h; sourceTree = "<group>"; };
+		B6FD453518DC8ECA006E9458 /* PYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYViewController.m; sourceTree = "<group>"; };
+		B6FD453718DC8ECA006E9458 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B6FD453D18DC8ECA006E9458 /* UITVC Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITVC Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6FD453E18DC8ECA006E9458 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B6FD454618DC8ECA006E9458 /* UITVC Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITVC Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
+		B6FD454818DC8ECA006E9458 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B6FD454A18DC8ECA006E9458 /* UITVC_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITVC_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6FD451918DC8ECA006E9458 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6FD452218DC8ECA006E9458 /* CoreGraphics.framework in Frameworks */,
+				B6FD452418DC8ECA006E9458 /* UIKit.framework in Frameworks */,
+				B6FD452018DC8ECA006E9458 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6FD453A18DC8ECA006E9458 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6FD453F18DC8ECA006E9458 /* XCTest.framework in Frameworks */,
+				B6FD454118DC8ECA006E9458 /* UIKit.framework in Frameworks */,
+				B6FD454018DC8ECA006E9458 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6FD451318DC8ECA006E9458 = {
+			isa = PBXGroup;
+			children = (
+				B6FD452518DC8ECA006E9458 /* UITVC Challenge Solution */,
+				B6FD454418DC8ECA006E9458 /* UITVC Challenge SolutionTests */,
+				B6FD451E18DC8ECA006E9458 /* Frameworks */,
+				B6FD451D18DC8ECA006E9458 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6FD451D18DC8ECA006E9458 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6FD451C18DC8ECA006E9458 /* UITVC Challenge Solution.app */,
+				B6FD453D18DC8ECA006E9458 /* UITVC Challenge SolutionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6FD451E18DC8ECA006E9458 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6FD451F18DC8ECA006E9458 /* Foundation.framework */,
+				B6FD452118DC8ECA006E9458 /* CoreGraphics.framework */,
+				B6FD452318DC8ECA006E9458 /* UIKit.framework */,
+				B6FD453E18DC8ECA006E9458 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6FD452518DC8ECA006E9458 /* UITVC Challenge Solution */ = {
+			isa = PBXGroup;
+			children = (
+				B6FD452E18DC8ECA006E9458 /* PYAppDelegate.h */,
+				B6FD452F18DC8ECA006E9458 /* PYAppDelegate.m */,
+				B6FD453118DC8ECA006E9458 /* Main.storyboard */,
+				B6FD453418DC8ECA006E9458 /* PYViewController.h */,
+				B6FD453518DC8ECA006E9458 /* PYViewController.m */,
+				B6FD453718DC8ECA006E9458 /* Images.xcassets */,
+				B6FD452618DC8ECA006E9458 /* Supporting Files */,
+			);
+			path = "UITVC Challenge Solution";
+			sourceTree = "<group>";
+		};
+		B6FD452618DC8ECA006E9458 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6FD452718DC8ECA006E9458 /* UITVC Challenge Solution-Info.plist */,
+				B6FD452818DC8ECA006E9458 /* InfoPlist.strings */,
+				B6FD452B18DC8ECA006E9458 /* main.m */,
+				B6FD452D18DC8ECA006E9458 /* UITVC Challenge Solution-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6FD454418DC8ECA006E9458 /* UITVC Challenge SolutionTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6FD454A18DC8ECA006E9458 /* UITVC_Challenge_SolutionTests.m */,
+				B6FD454518DC8ECA006E9458 /* Supporting Files */,
+			);
+			path = "UITVC Challenge SolutionTests";
+			sourceTree = "<group>";
+		};
+		B6FD454518DC8ECA006E9458 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6FD454618DC8ECA006E9458 /* UITVC Challenge SolutionTests-Info.plist */,
+				B6FD454718DC8ECA006E9458 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6FD451B18DC8ECA006E9458 /* UITVC Challenge Solution */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6FD454E18DC8ECA006E9458 /* Build configuration list for PBXNativeTarget "UITVC Challenge Solution" */;
+			buildPhases = (
+				B6FD451818DC8ECA006E9458 /* Sources */,
+				B6FD451918DC8ECA006E9458 /* Frameworks */,
+				B6FD451A18DC8ECA006E9458 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UITVC Challenge Solution";
+			productName = "UITVC Challenge Solution";
+			productReference = B6FD451C18DC8ECA006E9458 /* UITVC Challenge Solution.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6FD453C18DC8ECA006E9458 /* UITVC Challenge SolutionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6FD455118DC8ECA006E9458 /* Build configuration list for PBXNativeTarget "UITVC Challenge SolutionTests" */;
+			buildPhases = (
+				B6FD453918DC8ECA006E9458 /* Sources */,
+				B6FD453A18DC8ECA006E9458 /* Frameworks */,
+				B6FD453B18DC8ECA006E9458 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6FD454318DC8ECA006E9458 /* PBXTargetDependency */,
+			);
+			name = "UITVC Challenge SolutionTests";
+			productName = "UITVC Challenge SolutionTests";
+			productReference = B6FD453D18DC8ECA006E9458 /* UITVC Challenge SolutionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6FD451418DC8ECA006E9458 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PY;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Pete Yates";
+				TargetAttributes = {
+					B6FD453C18DC8ECA006E9458 = {
+						TestTargetID = B6FD451B18DC8ECA006E9458;
+					};
+				};
+			};
+			buildConfigurationList = B6FD451718DC8ECA006E9458 /* Build configuration list for PBXProject "UITVC Challenge Solution" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6FD451318DC8ECA006E9458;
+			productRefGroup = B6FD451D18DC8ECA006E9458 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6FD451B18DC8ECA006E9458 /* UITVC Challenge Solution */,
+				B6FD453C18DC8ECA006E9458 /* UITVC Challenge SolutionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6FD451A18DC8ECA006E9458 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6FD453818DC8ECA006E9458 /* Images.xcassets in Resources */,
+				B6FD452A18DC8ECA006E9458 /* InfoPlist.strings in Resources */,
+				B6FD453318DC8ECA006E9458 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6FD453B18DC8ECA006E9458 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6FD454918DC8ECA006E9458 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6FD451818DC8ECA006E9458 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6FD453618DC8ECA006E9458 /* PYViewController.m in Sources */,
+				B6FD452C18DC8ECA006E9458 /* main.m in Sources */,
+				B6FD453018DC8ECA006E9458 /* PYAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6FD453918DC8ECA006E9458 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6FD454B18DC8ECA006E9458 /* UITVC_Challenge_SolutionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6FD454318DC8ECA006E9458 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6FD451B18DC8ECA006E9458 /* UITVC Challenge Solution */;
+			targetProxy = B6FD454218DC8ECA006E9458 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B6FD452818DC8ECA006E9458 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6FD452918DC8ECA006E9458 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B6FD453118DC8ECA006E9458 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6FD453218DC8ECA006E9458 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6FD454718DC8ECA006E9458 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6FD454818DC8ECA006E9458 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6FD454C18DC8ECA006E9458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B6FD454D18DC8ECA006E9458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6FD454F18DC8ECA006E9458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UITVC Challenge Solution/UITVC Challenge Solution-Prefix.pch";
+				INFOPLIST_FILE = "UITVC Challenge Solution/UITVC Challenge Solution-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B6FD455018DC8ECA006E9458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UITVC Challenge Solution/UITVC Challenge Solution-Prefix.pch";
+				INFOPLIST_FILE = "UITVC Challenge Solution/UITVC Challenge Solution-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B6FD455218DC8ECA006E9458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UITVC Challenge Solution.app/UITVC Challenge Solution";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UITVC Challenge Solution/UITVC Challenge Solution-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UITVC Challenge SolutionTests/UITVC Challenge SolutionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B6FD455318DC8ECA006E9458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UITVC Challenge Solution.app/UITVC Challenge Solution";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UITVC Challenge Solution/UITVC Challenge Solution-Prefix.pch";
+				INFOPLIST_FILE = "UITVC Challenge SolutionTests/UITVC Challenge SolutionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6FD451718DC8ECA006E9458 /* Build configuration list for PBXProject "UITVC Challenge Solution" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6FD454C18DC8ECA006E9458 /* Debug */,
+				B6FD454D18DC8ECA006E9458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6FD454E18DC8ECA006E9458 /* Build configuration list for PBXNativeTarget "UITVC Challenge Solution" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6FD454F18DC8ECA006E9458 /* Debug */,
+				B6FD455018DC8ECA006E9458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B6FD455118DC8ECA006E9458 /* Build configuration list for PBXNativeTarget "UITVC Challenge SolutionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6FD455218DC8ECA006E9458 /* Debug */,
+				B6FD455318DC8ECA006E9458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6FD451418DC8ECA006E9458 /* Project object */;
+}
